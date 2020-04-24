@@ -68,10 +68,10 @@
 .projectGrid {
     /* border: 1px solid red; */
     margin: 25px;
-    /* height: 100px; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-gap: 1em;
     grid-gap: 50px;
 }
 
@@ -81,6 +81,30 @@
     object-fit: cover;
 }
 
+/* .projectGrid > .photo > img:hover {
+    box-shadow: 2px 2px 2px 2px black;
+    transform: translate(-5deg);
+} */
+
 .projectGrid > .four > img {
     object-fit: contain; 
 }
+
+.photoName {
+    text-align: center;
+}
+
+.photoName > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+ a:link {
+    text-decoration: none;
+}
+
+.photoName > a:visited {
+    color: orange;
+} 
+
