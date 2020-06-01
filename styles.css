@@ -4,7 +4,7 @@ html, body {
     box-sizing: border-box;
 }
 
-h1, h4, p, span {
+h1, h2, h3, h4, h5, h6, p, span, a {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
@@ -16,5 +16,5 @@ p {
 .wrapper {
     width: 50%;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 10%;
 }
